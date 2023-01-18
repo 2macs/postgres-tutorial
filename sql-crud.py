@@ -40,12 +40,58 @@ ada_lovelace = Programmer(
     famous_for="First Programmer",
 )
 
+alan_turing = Programmer(
+    first_name="Alan",
+    last_name="Turing",
+    gender="M",
+    nationality="British",
+    famous_for="Modern Computing",
+)
+
+
+grace_hopper = Programmer(
+    first_name="Grace",
+    last_name="Hopper",
+    gender="F",
+    nationality="American",
+    famous_for="COBOL language"
+)
+
+margaret_hamilton = Programmer(
+    first_name="Margaret",
+    last_name="Hamilton",
+    gender="F",
+    nationality="American",
+    famous_for="Apollo 11"
+)
+
+bill_gates = Programmer(
+    first_name="Bill",
+    last_name="Gates",
+    gender="M",
+    nationality="American",
+    famous_for="Microsoft"
+)
+
+tim_berners_lee = Programmer(
+    first_name="Tim",
+    last_name="Berners-Lee",
+    gender="M",
+    nationality="British",
+    famous_for="World Wide Web"
+)
+
 # Add each instance of programmer to the session
-session.add(ada_lovelace)
+# session.add(ada_lovelace)
+# session.add(alan_turing)
+# session.add(grace_hopper)
+# session.add(margaret_hamilton)
+# session.add(bill_gates)
+# session.add(tim_berners_lee)
 
 
 # Commit each instance to the DBase
-session.commit()
+# session.commit()
 
 
 # Query the Database to find all programmers
